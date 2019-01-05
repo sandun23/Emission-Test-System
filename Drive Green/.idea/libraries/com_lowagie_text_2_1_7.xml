@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="com.lowagie.text-2.1.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/com.lowagie.text-2.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/controlsfx-8.40.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/controlsfx-samples-8.40.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/fxsampler-1.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/itextpdf-5.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/jasperreports-6.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/jasperreports-javaflow-6.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/jcommon-1.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/jfreechart-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/org-apache-commons-logging.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/org.apache.commons.collections.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/controlsfx-samples-8.40.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libraries/Jasper Reprots/itext-2.1.7-src.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loadPane" prefHeight="707.0" prefWidth="1042.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.DG.controller.admin.AddReceptionController">
+   <children>
+      <Label layoutX="776.0" layoutY="36.0" prefHeight="46.0" prefWidth="240.0" text="Reception Form">
+         <font>
+            <Font name="Serif Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtReceptionID" labelFloat="true" layoutX="106.0" layoutY="115.0" onAction="#txtRone" prefHeight="39.0" prefWidth="240.0" promptText="Reception ID">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnSearch" layoutX="377.0" layoutY="112.0" onMouseClicked="#Onsearch" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: #04ce1b;" text="Search">
+         <font>
+            <Font name="Serif Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtReceptionName" labelFloat="true" layoutX="106.0" layoutY="198.0" onAction="#OnRtwo" prefHeight="39.0" prefWidth="240.0" promptText="Reception Name">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtReceptionAddress" labelFloat="true" layoutX="401.0" layoutY="198.0" onAction="#OnRthree" prefHeight="39.0" prefWidth="240.0" promptText="Reception Address">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtreceptionTele" labelFloat="true" layoutX="726.0" layoutY="198.0" onAction="#OnRfour" prefHeight="39.0" prefWidth="240.0" promptText="Reception Telephone">
+         <font>
+            <Font name="Georgia" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnSave" layoutX="449.0" layoutY="272.0" onMouseClicked="#OnSave" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: #04ce1b;" text="Save">
+         <font>
+            <Font name="Serif Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="824.0" layoutY="272.0" onMouseClicked="#OnDelete" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: #ed3636;" text="Delete">
+         <font>
+            <Font name="Serif Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnUpdate" layoutX="632.0" layoutY="272.0" onMouseClicked="#OnUpdate" prefHeight="46.0" prefWidth="144.0" style="-fx-background-color: #04ce1b;" text="Update">
+         <font>
+            <Font name="Serif Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblReception" layoutX="71.0" layoutY="340.0" prefHeight="313.0" prefWidth="945.0">
+        <columns>
+          <TableColumn prefWidth="239.0" text="Reception ID" />
+          <TableColumn prefWidth="252.0" text="Reception Name" />
+            <TableColumn prefWidth="234.0" text="Reception Address" />
+            <TableColumn prefWidth="219.0" text="Reception Telephone" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="838.0" prefWidth="1295.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.DG.controller.admin.AdminDashboardController">
+   <children>
+      <Label layoutY="-2.0" prefHeight="131.0" prefWidth="1295.0" style="-fx-background-color: white;">
+         <font>
+            <Font name="Serif Bold" size="29.0" />
+         </font>
+      </Label>
+      <VBox layoutY="129.0" prefHeight="707.0" prefWidth="254.0" style="-fx-background-color: white;">
+         <children>
+            <JFXButton fx:id="btnDashBoard" onMouseClicked="#Ondashboard" prefHeight="91.0" prefWidth="254.0" text="DashBoard">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAddReception" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnReception" prefHeight="91.0" prefWidth="254.0" text="Add Reception">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAddTester" layoutX="10.0" layoutY="101.0" onMouseClicked="#OnTester" prefHeight="91.0" prefWidth="254.0" text="Add Tester">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAddPayments" layoutX="10.0" layoutY="192.0" onMouseClicked="#OnPayments" prefHeight="91.0" prefWidth="254.0" text="Add Payments">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnViewTests" layoutX="10.0" layoutY="283.0" onMouseClicked="#OnViewTests" prefHeight="91.0" prefWidth="254.0" text="View Tests">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnVehicleDetails" layoutX="10.0" layoutY="374.0" onMouseClicked="#OnVehicleDetails" prefHeight="91.0" prefWidth="254.0" text="Check Vehicle Details">
+               <font>
+                  <Font name="Serif Bold" size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnSettings" layoutX="10.0" layoutY="465.0" onMouseClicked="#OnSettings" prefHeight="91.0" prefWidth="254.0" text="Settings">
+               <font>
+                  <Font name="Serif Bold" size="24.0" />
+               </font>
+            </JFXButton>
+         </children></VBox>
+      <ImageView fitHeight="119.0" fitWidth="235.0" layoutX="10.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assest/Drivegreen-Vehicle-Emission-Testing-Center-Chankanai-1508258632.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="loadPane" layoutX="254.0" layoutY="129.0" prefHeight="707.0" prefWidth="1042.0" style="-fx-background-color: white;" />
+      <ImageView fx:id="imgLogout" fitHeight="31.0" fitWidth="52.0" layoutX="1250.0" layoutY="6.0" onMouseClicked="#OnLogout" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../assest/close.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
